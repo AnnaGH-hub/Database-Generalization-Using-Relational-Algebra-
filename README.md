@@ -209,49 +209,6 @@ with DatabaseManager(conn_string) as db:
 python demo.py
 ```
 
-## 📁 Project Structure
-
-```
-database-generalization/
-│
-├── README.md                 # This file
-├── requirements.txt          # Python dependencies
-├── LICENSE                   # MIT License
-│
-├── src/
-│   ├── __init__.py
-│   ├── database_manager.py   # Main database interface
-│   ├── models.py             # Data models (Person, Customer, Employee)
-│   └── config.py             # Configuration settings
-│
-├── sql/
-│   ├── schema.sql            # Complete database schema
-│   ├── indexes.sql           # Index definitions
-│   ├── views.sql             # View definitions
-│   └── sample_data.sql       # Sample data for testing
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_person.py        # Person operations tests
-│   ├── test_customer.py      # Customer operations tests
-│   ├── test_employee.py      # Employee operations tests
-│   └── test_relational_ops.py # Relational algebra tests
-│
-├── docs/
-│   ├── architecture.md       # Detailed architecture
-│   ├── performance.md        # Performance analysis
-│   ├── er_diagram.png        # Entity-Relationship diagram
-│   └── report.pdf            # Full academic report
-│
-├── examples/
-│   ├── demo.py               # Comprehensive demo
-│   └── benchmarks.py         # Performance benchmarks
-│
-└── utils/
-    ├── migration.py          # Schema migration tools
-    └── performance.py        # Performance testing utilities
-```
-
 ## 🔍 Relational Algebra Operations
 
 ### 1. Selection (σ)
