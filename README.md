@@ -16,7 +16,6 @@ A comprehensive implementation demonstrating the application of set theory and r
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Relational Algebra Operations](#relational-algebra-operations)
 - [Performance Analysis](#performance-analysis)
 
